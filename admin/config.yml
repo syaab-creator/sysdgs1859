@@ -2,6 +2,9 @@ backend:
   name: github
   repo: sysdgs1859/sysdgs1859.github.io
   branch: main
+  auth_scope: repo
+  client_id: YOUR_CLIENT_ID
+  client_secret: YOUR_CLIENT_SECRET
 
 media_folder: "images"
 public_folder: "/images"
